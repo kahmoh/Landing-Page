@@ -7,6 +7,25 @@
 .header{
     height: 250px;
     background-color: #1f2937;
-    border: 0,0,0,0;
+}
+
+.navbar{
     display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 0px 70px;
+}
+
+#header-logo{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.navbar-links{
+    font-size: 14px;
+}
+
+#header-link{
+    color: #E5E7EB;
+    text-decoration: none;
+    padding-left: 20px;
 }
