@@ -74,3 +74,41 @@
     border-radius: 5px;
     padding: 2px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-boxes{
+    font-size: 16px;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.info-box-1, .info-box-2, .info-box-3, .info-box-4{
+    width: 150px;
+}
+
+.info-pictures{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    margin-bottom: 5px;
+}
