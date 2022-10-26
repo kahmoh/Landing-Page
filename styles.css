@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,11 +14,11 @@
     background-color:#1f2937;
     color: white;
     padding-top: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.navbar h2{
+#header-logo{
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -46,7 +48,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .hero-text h1{
@@ -62,8 +64,9 @@
 #hero-image{
     width: 400px;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 .hero button{
@@ -83,7 +86,7 @@
 
 .info-title{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1f2937;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -111,4 +114,26 @@
     border-style: solid;
     border-width: 3px;
     margin-bottom: 5px;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    color: #1f2937;
+}
+
+.quote{
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.quote-reference{
+    font-weight: 900;
+    margin-left: 650px;
+    margin-bottom: 50px;
 }
